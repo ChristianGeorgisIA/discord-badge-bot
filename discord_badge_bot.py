@@ -311,6 +311,6 @@ if __name__ == "__main__":
     print("N'oubliez pas de remplacer 'MTQ3MTE0MjA2NDc0NDk1NTkzNg.GJLtRp.m1sLR-H7yify-NyeOUD8aXku_Y3JD-_zqVYzJY' par votre vrai token!")
     
     # IMPORTANT: Remplacez ceci par votre token de bot Discord
-    TOKEN = "MTQ3MTE0MjA2NDc0NDk1NTkzNg.GJLtRp.m1sLR-H7yify-NyeOUD8aXku_Y3JD-_zqVYzJY"
-    
-    bot.run(TOKEN)
+    TOKEN = os.getenv("DISCORD_TOKEN")
+
+     bot.run(TOKEN)
