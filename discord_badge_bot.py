@@ -308,5 +308,6 @@ async def aide_badge(interaction: discord.Interaction):
 # Point d'entrée
 if __name__ == "__main__":
     print("Démarrage du bot...")
-    TOKEN = os.getenv("DISCORD_TOKEN")
+    TOKEN = MTQ3MTE0MjA2NDc0NDk1NTkzNg.Gvg01F.nQsSGr0YYiLtGBLBMLNgInXfCZ1a_IBeBbj91k
+
     bot.run(TOKEN)
